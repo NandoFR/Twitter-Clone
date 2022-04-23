@@ -1,0 +1,21 @@
+span.displaySlider > * {
+    color: var(--primary);
+}
+.backgrounds {
+    flex-wrap: wrap;
+    display: flex !important;
+    flex-direction: row !important  ;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.MuiFormControlLabel-label,
+.css-hyxlzm {
+    color: inherit;
+}
+.Mui-checked {
+    color: var(--primary) !important;
+}
+span.MuiTypography-root {
+    font-size: var(--text-regular) !important;
+}
