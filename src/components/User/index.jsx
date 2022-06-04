@@ -1,16 +1,16 @@
 import { Photo, Name, IDAndDate, Content } from '../Tweet/styles';
 import * as S from './styles';
-const User = ({ desc }) => {
+const User = ({ desc, name, photo }) => {
     return (
         <S.Container>
             <S.LeftContent>
-                <Photo src="/images/twitter_image.webp" />
+                <Photo src={photo} />
             </S.LeftContent>
             <S.RightContent>
                 <S.UserWrapper>
                     <S.UserInfo>
-                        <Name>Twitter</Name>
-                        <IDAndDate>@Twitter</IDAndDate>
+                        <Name>{name}</Name>
+                        <IDAndDate>@{name}</IDAndDate>
                         <S.Desc>{desc}</S.Desc>
                     </S.UserInfo>
                     <S.Button>Follow</S.Button>

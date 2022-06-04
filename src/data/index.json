@@ -1,0 +1,104 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "name": "Maicon Kuster",
+            "photo": "https://pbs.twimg.com/profile_images/1267986629412741120/Z26Rlg0e_400x400.jpg"
+        },
+        {
+            "id": 2,
+            "name": "Lucas Inutilismo",
+            "photo": "https://pbs.twimg.com/profile_images/892579870802190336/SmAuYdKy_400x400.jpg"
+        },
+        {
+            "id": 3,
+            "name": "Alanzoka",
+            "photo": "https://pbs.twimg.com/profile_images/944712346500587522/duOz-D8s_400x400.jpg"
+        },
+        {
+            "id": 4,
+            "name": "Whindersson Nunes",
+            "photo": "https://pbs.twimg.com/profile_images/1499554023636148225/Pkk5og89_400x400.jpg"
+        },
+        {
+            "id": 5,
+            "name": "Anitta",
+            "photo": "https://pbs.twimg.com/profile_images/1514757302028488709/suxMlQoh_400x400.jpg"
+        },
+        {
+            "id": 6,
+            "name": "Fillipe Deschamps",
+            "photo": "https://pbs.twimg.com/profile_images/1121558321151004672/TQM7EQvn_400x400.png"
+        },
+        {
+            "id": 7,
+            "name": "Lucas Montano",
+            "photo": "https://pbs.twimg.com/profile_images/1506744859453005824/1twcWmfS_400x400.jpg"
+        },
+        {
+            "id": 8,
+            "name": "Gustavo Guanabara",
+            "photo": "https://pbs.twimg.com/profile_images/961605799830347776/Oy9Amu3w_400x400.jpg"
+        },
+        {
+            "id": 9,
+            "name": "Rafaella Ballerini",
+            "photo": "https://pbs.twimg.com/profile_images/1358586934822658048/1VEg3xvO_400x400.jpg"
+        },
+        {
+            "id": 10,
+            "name": "7 Minutoz #DropGameOver",
+            "photo": "https://pbs.twimg.com/profile_images/1342563012411056128/PypzJe1__400x400.jpg"
+        },
+        {
+            "id": 11,
+            "name": "Ei Nerd",
+            "photo": "https://pbs.twimg.com/profile_images/1390410131305902084/WSM-9wjP_400x400.jpg"
+        },
+        {
+            "id": 12,
+            "name": "Peter Jordan",
+            "photo": "https://pbs.twimg.com/profile_images/1487626583057780736/ceXRUPn1_400x400.jpg"
+        },
+        {
+            "id": 13,
+            "name": "Elon Musk",
+            "photo": "https://pbs.twimg.com/profile_images/1529956155937759233/Nyn1HZWF_400x400.jpg"
+        },
+        {
+            "id": 14,
+            "name": "Bill Gates",
+            "photo": "https://pbs.twimg.com/profile_images/1414439092373254147/JdS8yLGI_400x400.jpg"
+        },
+        {
+            "id": 15,
+            "name": "Jeff Bezos",
+            "photo": "https://pbs.twimg.com/profile_images/669103856106668033/UF3cgUk4_400x400.jpg"
+        },
+        {
+            "id": 16,
+            "name": "NASA",
+            "photo": "https://pbs.twimg.com/profile_images/1321163587679784960/0ZxKlEKB_400x400.jpg"
+        },
+        {
+            "id": 17,
+            "name": "Podpah",
+            "photo": "https://pbs.twimg.com/profile_images/1483453961986363392/ANhU_2Zz_400x400.jpg"
+        },
+        {
+            "id": 18,
+            "name": "Gaules",
+            "photo": "https://pbs.twimg.com/profile_images/1528354786877251587/ibUcCCu1_400x400.jpg"
+        },
+        {
+            "id": 19,
+            "name": "caze",
+            "photo": "https://pbs.twimg.com/profile_images/1484473740209659906/NlQOxAt3_400x400.jpg"
+        },
+        {
+            "id": 20,
+            "name": "netflixbrasil",
+            "photo": "https://pbs.twimg.com/profile_images/1530159256388915201/7xpAo9uk_400x400.jpg"
+        }
+    ]
+}

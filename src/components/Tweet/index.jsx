@@ -1,14 +1,17 @@
 import * as S from './styles';
-const Tweet = () => {
+const Tweet = ({ name, photo }) => {
     return (
         <S.Container>
             <S.LeftContent>
-                <S.Photo src="images/twitter_image.webp" alt="Twitter" />
+                <S.Photo
+                    src={photo || 'images/twitter_image.webp'}
+                    alt="Twitter"
+                />
             </S.LeftContent>
             <S.RightContent>
                 <S.TitleWrapper>
-                    <S.Name>Twitter</S.Name>
-                    <S.IDAndDate>@Twitter - 20m</S.IDAndDate>
+                    <S.Name>{name || 'Twitter'}</S.Name>
+                    <S.IDAndDate>@{name || 'Twitter'} - 20m</S.IDAndDate>
                 </S.TitleWrapper>
                 <S.Content>
                     At the heart of Twitter are short messages called Tweets --

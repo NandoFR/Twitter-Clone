@@ -3,12 +3,14 @@ import { Content } from '../Profile/styles';
 import User from '../../components/User';
 import Search from '../../components/Search';
 import { useState } from 'react';
+import data from '../../data';
+
 const Explore = () => {
     const [searchValue, setSearchValue] = useState('');
     const handleSubmit = (e) => {
         e.preventDefault();
-        console.log(e);
     };
+
     return (
         <>
             <Header title="Explore" />
@@ -18,33 +20,9 @@ const Explore = () => {
                 change={setSearchValue}
             />
             <Content>
-                <User />
-                <User />
-                <User />
-                <User />
-                <User />
-                <User />
-                <User />
-                <User />
-                <User />
-                <User />
-                <User />
-                <User />
-                <User />
-                <User />
-                <User />
-                <User />
-                <User />
-                <User />
-                <User />
-                <User />
-                <User />
-                <User />
-                <User />
-                <User />
-                <User />
-                <User />
-                <User />
+                {data.users.map((user) => {
+                    return <User key={user.id} {...user} />;
+                })}
             </Content>
         </>
     );
