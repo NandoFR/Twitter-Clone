@@ -3,6 +3,9 @@ import { Tablet } from '../../styles/Responsive';
 
 export const Container = styled.div`
     display: ${(props) => (props.isActive ? 'block' : 'none')};
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
 `;
 export const Blackscreen = styled.div`
     width: 100%;
@@ -24,10 +27,15 @@ export const Modal = styled.div`
     background-color: var(--bg);
     transform: translate(-50%, -50%);
     border-radius: 16px;
+    overflow-y: auto;
     ${Tablet({
         width: '100%',
         height: '100vh',
+        minHeight: '100vh',
         borderRadius: '0',
+        top: 0,
+        left: 0,
+        transform: 'translate(0,0)',
     })}
 `;
 export const Header = styled.header`
