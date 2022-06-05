@@ -4,8 +4,6 @@ import { Tablet } from '../../styles/Responsive';
 export const Container = styled.div`
     display: ${(props) => (props.isActive ? 'block' : 'none')};
     position: absolute;
-    height: 100vh;
-    width: 100vw;
 `;
 export const Blackscreen = styled.div`
     width: 100%;
